@@ -1,11 +1,11 @@
-def prime?(nums)
-    nums.each do |num|
+def prime?(numbers)
+    numbers.each do |numbers|
     i = 2
       while i < num
         if num % i == 0
-          puts "#{num} is not a prime"
+          puts "#{numbers} is not a prime"
         else
-          puts "#{num} is a prime"
+          puts "#{numbers} is a prime"
         end
         i += 1
       end
