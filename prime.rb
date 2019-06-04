@@ -5,7 +5,7 @@ def prime?(numbers)
         if num % i == 0
           puts "#{numbers} is not a prime"
         else
-          puts "#{numbers} is a prime"
+          return true
         end
         i += 1
       end
